@@ -1,0 +1,37 @@
+<style>
+    .inplace p{
+        margin: 90px 0px 0px 0px;
+      
+    }
+    
+  </style>
+<div class="inplace">
+    <p></p>
+<p-card header="โคมไฟ" [style]="{'width': '25rem', 'margin-bottom': '2em'}">
+<p-inplace>
+    <ng-template pTemplate="display">
+        <div class="inline-flex align-items-center">
+            <span class="pi pi-image" style="vertical-align: middle"></span>
+            <span class="ml-2">View Picture</span>
+        </div>
+    </ng-template>
+    <ng-template pTemplate="content">
+        <img src="https://www.pngbie.com/assets/images/icon/kEwPCvAHTNPngbie-05120012511620753171.png" alt="Nature">
+    </ng-template>
+</p-inplace>
+</p-card>
+<p-card header="แก้วน้ำ" [style]="{'width': '25rem', 'margin-bottom': '2em'}">
+   
+    <p-inplace>
+        <ng-template pTemplate="display">
+            <div class="inline-flex align-items-center">
+                <span class="pi pi-image" style="vertical-align: middle"></span>
+                <span class="ml-2">View Picture</span>
+            </div>
+        </ng-template>
+        <ng-template pTemplate="content">
+            <img src="https://i.pinimg.com/474x/fc/54/36/fc5436550e9bd1e95f885a3102571c6c.jpg" alt="Nature">
+        </ng-template>
+    </p-inplace>
+    </p-card>
+</div>

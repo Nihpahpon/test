@@ -1,0 +1,42 @@
+<style>
+    
+    .body img{ 
+      margin: 200px 50px 30px 140px;
+      border-radius: 20%;
+      border: solid 4px rgb(254, 214, 13);
+    }
+  
+    .body button{
+      margin: 30px 120px 30px 200px;
+      color: rgb(255, 255, 255);
+      
+    }
+   
+   
+  </style>
+  
+  <!-- Body -->
+  <div class="body">
+    <b><img
+      width="200"
+      alt="สัตว์"
+      src="https://png.pngtree.com/png-clipart/20190122/ourlarge/pngtree-animal-cartoon-world-animal-day-animal-world-png-image_526679.jpg"
+    />
+    <img
+      width="200"
+      alt="ต้นไม้"
+      src="https://www.pngitem.com/pimgs/m/281-2815418_-.png"
+    />
+    <img
+      width="200"
+      alt="สิ่งของ"
+      src="https://i.pinimg.com/564x/aa/22/73/aa22734b10330d0d08c8cb78e0413cd6.jpg"
+    />
+  </b>
+  <button [routerLink]="['/page1']" pButton type="button"  label="สัตว์" class="p-button-raised p-button-rounded" ></button>
+  <button [routerLink]="['/page2']" pButton type="button" label="ต้นไม้" class="p-button-raised p-button-rounded"></button>
+  <button [routerLink]="['/page3']" pButton type="button" label="สิ่งของ"  class="p-button-raised p-button-rounded" ></button>  
+  </div>
+
+  
+  

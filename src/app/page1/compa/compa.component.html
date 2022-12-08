@@ -1,0 +1,18 @@
+<style>
+    .compa p{
+        margin: 10px 50px 25px 525px;
+    }
+    .compa button{
+        margin: 10px 15px 10px 540px;
+    }
+    
+</style>
+<div class="compa">
+    <p class="p-float-label">
+        <input class="p-float-label"id="todolist" type="text" pInputText [(ngModel)]="animal"> 
+        <label for="float-input">Nameanimal</label>
+    </p>&nbsp;
+    <button type="submit"(click)="sentlist()"pButton  class="p-button-raised p-button-rounded">Add Name Animal</button>
+
+<app-compb [Animal]="doto"></app-compb>
+</div>
